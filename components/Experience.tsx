@@ -1,0 +1,3 @@
+import React from "react"; import { Experience as ExperienceType } from "../types";
+const Experience: React.FC<{experiences:ExperienceType[]}> = ({experiences}) => <section id="carreira" className="section section-alt" aria-labelledby="experience-title"><div className="container timeline"><p className="section-kicker">// 03. TRAJETÓRIA</p><h2 id="experience-title">Experiência em movimento.</h2>{experiences.map(e=><article className="timeline-item" key={e.id}><span>{e.period}</span><h3>{e.position}</h3><strong>{e.company}</strong><p>{e.description}</p><ul>{e.achievements.map(a=><li key={a}>{a}</li>)}</ul></article>)}</div></section>;
+export default React.memo(Experience);
