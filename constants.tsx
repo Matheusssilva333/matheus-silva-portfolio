@@ -2,6 +2,30 @@ import { Project, Skill, Experience, Education, Feedback, Idioma } from "./types
 
 export const PROJECTS: Project[] = [
   {
+    id: "10",
+    title: "ForjaIA — Engenharia Assistida por IA",
+    description: "Plataforma de análise técnica assistida por IA para vasos de pressão e estruturas soldadas, com diagnóstico, referências normativas e priorização de correções.",
+    tags: ["Lovable", "IA", "Engenharia", "Análise Técnica"],
+    imageUrl: "https://images.unsplash.com/photo-1565439377681-6f7c6a8e0f4f?auto=format&fit=crop&q=80&w=800",
+    link: "https://vision-refine-workshop.lovable.app",
+  },
+  {
+    id: "9",
+    title: "Propósito — Jornada de Alta Performance",
+    description: "Aplicação de desenvolvimento pessoal com objetivos, missões, progresso por XP e um mentor assistido por IA para acompanhar a jornada do usuário.",
+    tags: ["Lovable", "React", "IA", "Produtividade"],
+    imageUrl: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=800",
+    link: "https://purpose-quest-forge.lovable.app",
+  },
+  {
+    id: "8",
+    title: "ID Preview — Aplicativo Web",
+    description: "Aplicativo web publicado no Lovable e apresentado como demonstração de uma experiência de produto digital.",
+    tags: ["Lovable", "Web App", "UI/UX"],
+    imageUrl: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800",
+    link: "https://id-preview--7c734987-573a-4e34-9c60-4c1811f9bc8c.lovable.app/",
+  },
+  {
     id: "5",
     title: "Simulador 3D de Casa Acessível",
     description: "Experiência interativa em 3D para explorar ambientes domésticos, recursos de acessibilidade e controles de navegação em uma interface educativa.",
