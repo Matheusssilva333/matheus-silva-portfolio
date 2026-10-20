@@ -1,19 +1,34 @@
 import { Project, Skill, Experience, Education, Feedback, Idioma } from "./types";
 
 export const PROJECTS: Project[] = [
-
   {
-    id: "1",
+    id: "5",
+    title: "Simulador 3D de Casa Acessível",
+    description: "Experiência interativa em 3D para explorar ambientes domésticos, recursos de acessibilidade e controles de navegação em uma interface educativa.",
+    tags: ["Three.js", "JavaScript", "3D", "Acessibilidade"],
+    imageUrl: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&q=80&w=800",
+    link: "https://agent-6ad0303656439ed4702--website-deploy-4b87b5.netlify.app/",
+  },
+  {
+    id: "6",
+    title: "Controle de Permutadores",
+    description: "Dashboard industrial demonstrativo para acompanhamento de equipamentos, indicadores de avanço, curva S, filtros, kanban, auditoria e importação de planilhas.",
+    tags: ["React", "TypeScript", "Recharts", "Dashboard"],
+    imageUrl: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800",
+    link: "https://controle-permutadores.vercel.app/",
+  },
+  {
+    id: "7",
     title: "IA Consultora de Marketing Digital",
-    description: "Agente inteligente construído em Java que automatiza o funil de vendas. Utiliza a API do Manus AI para gerar estratégias personalizadas, resultando em um aumento de 40% na eficiência de prospecção durante os testes beta.",
-    tags: ["Java", "IA Generativa", "API Manus AI", "Marketing"],
-    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-    link: "https://github.com/Matheusssilva333/IA-de-Consultoria-de-Marketing-Digital",
+    description: "Aplicação em Java que organiza uma conversa de consultoria e transforma objetivos de marketing em recomendações práticas para presença e crescimento digital.",
+    tags: ["Java", "IA", "APIs", "Marketing"],
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+    link: "https://github.com/Matheusssilva333/IA-de-Consultoria-de-Marketing-Digital.git",
   },
   {
     id: "2",
     title: "Plataforma de Streaming FullStack",
-    description: "Ecossistema completo de vídeo construído com JavaScript moderno. Focado em performance de carregamento e experiência do usuário, implementando arquitetura escalável para distribuição de conteúdo.",
+    description: "Ecossistema completo de vídeo construído com JavaScript moderno, com foco em performance e experiência do usuário.",
     tags: ["JavaScript", "FullStack", "Streaming", "UX"],
     imageUrl: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&q=80&w=800",
     link: "https://github.com/Matheusssilva333/Projeto-de-Streaming",
@@ -21,16 +36,16 @@ export const PROJECTS: Project[] = [
   {
     id: "3",
     title: "Calculadora de Preços Imobiliários",
-    description: "Sistema de predição de preços que utiliza regressão linear e machine learning em Python. Analisa mais de 15 variáveis de mercado para entregar estimativas com margem de erro inferior a 10%.",
-    tags: ["Python", "Machine Learning", "Data Science", "Real Estate"],
+    description: "Sistema de predição de preços que utiliza regressão linear e machine learning em Python para entregar estimativas a partir de variáveis de mercado.",
+    tags: ["Python", "Machine Learning", "Data Science"],
     imageUrl: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800",
     link: "https://github.com/Matheusssilva333/Calculadora-de-precos-de-imoveis",
   },
   {
     id: "4",
-    title: "Análise de tráfego de rede - Wireshark",
-    description: "Análise de tráfego de rede capturado pelo Wireshark, identificando padrões de comunicação, protocolos utilizados e potenciais vulnerabilidades.",
-    tags: ["Wireshark", "Análise de Tráfego", "Redes", "Protocolos", "Segurança"],
+    title: "Análise de tráfego de rede",
+    description: "Análise de tráfego capturado, identificando padrões de comunicação, protocolos utilizados e potenciais vulnerabilidades.",
+    tags: ["Redes", "Protocolos", "Segurança"],
     imageUrl: "https://images.unsplash.com/photo-1526374965328-486d8d87f723?auto=format&fit=crop&q=80&w=800",
     link: "https://github.com/Matheusssilva333/Analise-de-trafego-de-rede-Wireshark.git",
   },
