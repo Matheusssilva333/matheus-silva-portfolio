@@ -13,12 +13,12 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  { name: "Python e automação", category: "Experiência em projetos", proficiency: 80, details: ["Scripts", "APIs", "FastAPI", "Automação de processos"] },
-  { name: "IA generativa e integração", category: "Foco atual", proficiency: 75, details: ["APIs de IA", "Prompt engineering", "Agentes", "Integração de sistemas"] },
-  { name: "Desenvolvimento web", category: "Conhecimento prático", proficiency: 75, details: ["React", "TypeScript", "JavaScript", "HTML/CSS"] },
-  { name: "Dados e bancos", category: "Conhecimento prático", proficiency: 70, details: ["SQL", "PostgreSQL", "Supabase", "Dashboards"] },
-  { name: "Java e orientação a objetos", category: "Base acadêmica e projetos", proficiency: 65, details: ["POO", "Estruturas de dados", "APIs"] },
-  { name: "Processos industriais", category: "Experiência profissional", proficiency: 80, details: ["Segurança", "Documentação", "Manutenção", "Organização operacional"] },
+  { name: "Desenvolvimento de software", category: "Conhecimento prático", proficiency: 75, details: ["Python", "Java", "Sites", "Chatbots"] },
+  { name: "Inteligência artificial e automações", category: "Foco atual", proficiency: 75, details: ["IA generativa", "Automação", "Microsoft 365 Copilot"] },
+  { name: "Gestão e planejamento", category: "Experiência profissional", proficiency: 75, details: ["Gestão de projetos", "Processos", "Planejamento", "SAP"] },
+  { name: "Dados e produtividade", category: "Conhecimento prático", proficiency: 70, details: ["Microsoft Excel", "Banco de dados", "Notion", "Microsoft PowerPoint"] },
+  { name: "Marketing e negócios", category: "Experiência em projetos", proficiency: 70, details: ["Marketing digital", "Redes sociais", "Prospecção comercial", "Vendas"] },
+  { name: "Processos industriais", category: "Experiência profissional", proficiency: 80, details: ["SMS", "Permissões de Trabalho", "Gestão de documentos", "Manutenção"] },
 ];
 
 export const EDUCATION: Education[] = [
@@ -35,9 +35,10 @@ export const IDIOMAS: Idioma[] = [
 ];
 
 export const EXPERIENCE: Experience[] = [
-  { id: "1", company: "C3 Engenharia · contrato relacionado à Petrobras / RPBC", position: "Caldeireiro · setor UGAV", period: "2026 — atual", description: "Atuação em ambiente industrial na Refinaria Presidente Bernardes, com participação em atividades relacionadas à manutenção, montagem, conformação e organização operacional. Experiência com procedimentos de segurança, documentação e comunicação entre equipes.", achievements: ["Vivência em ambiente industrial de alta responsabilidade", "Aplicação de disciplina operacional e atenção aos detalhes", "Contato com rotinas de manutenção e documentação de campo"] },
-  { id: "2", company: "Projetos independentes em tecnologia", position: "Desenvolvedor em formação", period: "2024 — atual", description: "Desenvolvimento de aplicações, automações, dashboards e experimentos com Python, Java, JavaScript, IA generativa, APIs, bancos de dados e ferramentas no-code/low-code.", achievements: ["Criação de aplicações web e dashboards para problemas práticos", "Experimentação com IA generativa e integração de APIs", "Construção de projetos para consolidar conhecimentos de desenvolvimento"] },
-  { id: "3", company: "Franciscon Infraestrutura", position: "Jovem Aprendiz Técnico", period: "2023 — 2024", description: "Início da trajetória profissional com foco em suporte operacional, organização e contato com rotinas de infraestrutura industrial.", achievements: ["Desenvolvimento de responsabilidade e organização profissional"] },
+  { id: "1", company: "C3 Engenharia", position: "Caldeireiro · UGAV e UT2", period: "06/2026 — 08/2026", description: "Atuação na UGAV e UT2 em atividades de caldeiraria, manutenção industrial, planejamento e SMS, seguindo procedimentos de segurança em ambiente de alta responsabilidade.", achievements: ["Traçagem de raquetes e componentes de caldeiraria conforme desenho/projeto", "Organização de estojos e conjuntos de fixação para manutenção", "Apoio com planilhas Excel, Permissões de Trabalho e controle documental", "Atuação em trabalho em altura conforme procedimentos de segurança"] },
+  { id: "2", company: "Talentsy Nexus", position: "Fundador e CEO", period: "01/2025 — atual", description: "Atuação em projetos de gestão de redes sociais, desenvolvimento de sites, chatbots e automações, além de atividades de prospecção comercial e vendas.", achievements: ["Desenvolvimento de sites, chatbots e automações", "Gestão de projetos de redes sociais e presença digital", "Prospecção comercial e relacionamento com clientes"] },
+  { id: "3", company: "Projetos independentes em tecnologia", position: "Desenvolvedor em formação", period: "2024 — atual", description: "Desenvolvimento de aplicações, dashboards e experimentos com Python, Java, JavaScript, IA generativa, APIs, bancos de dados e ferramentas no-code/low-code.", achievements: ["Criação de aplicações web e dashboards para problemas práticos", "Experimentação com IA generativa e integração de APIs", "Construção de projetos para consolidar conhecimentos de desenvolvimento"] },
+  { id: "4", company: "Franciscon Infraestrutura", position: "Jovem Aprendiz Técnico", period: "2023 — 2024", description: "Início da trajetória profissional com foco em suporte operacional, organização e contato com rotinas de infraestrutura industrial.", achievements: ["Desenvolvimento de responsabilidade e organização profissional"] },
 ];
 
 export const FEEDBACKS: Feedback[] = [
