@@ -30,8 +30,8 @@ export const EDUCATION: Education[] = [
 
 export const IDIOMAS: Idioma[] = [
   { name: "Português", category: "Nativo", proficiency: 100 },
-  { name: "Espanhol", category: "Intermediário", proficiency: 65 },
-  { name: "Inglês", category: "Técnico", proficiency: 55 },
+  { name: "Espanhol", category: "Básico", proficiency: 30 },
+  { name: "Inglês", category: "Básico", proficiency: 25 },
 ];
 
 export const EXPERIENCE: Experience[] = [
