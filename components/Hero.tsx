@@ -1,7 +1,6 @@
 import React from "react";
 interface HeroProps { resumeFilePath: string }
 const Hero: React.FC<HeroProps> = ({ resumeFilePath }) => <section className="hero-section" aria-labelledby="hero-title">
-  <div className="hero-orbit" aria-hidden="true" />
   <div className="container hero-content">
     <div className="eyebrow"><span className="status-dot" /> DISPONÍVEL PARA TECNOLOGIA, IA E AUTOMAÇÃO</div>
     <h1 id="hero-title">PYTHON, IA<br /><span>&amp; AUTOMAÇÃO</span></h1>

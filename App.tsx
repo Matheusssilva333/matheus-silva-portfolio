@@ -10,12 +10,10 @@ import Feedbacks from "./components/Feedbacks";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 const AIAssistant = lazy(() => import("./components/AIAssistant"));
-const NeuralBackground = lazy(() => import("./components/NeuralBackground"));
 const App: React.FC = () => {
   const resumeFilePath = "/Curriculo-Matheus-Silva.pdf";
   return <div className="portfolio-shell">
     <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
-    <Suspense fallback={null}><NeuralBackground /></Suspense>
     <Header resumeFilePath={resumeFilePath} />
     <main id="conteudo"><Hero resumeFilePath={resumeFilePath} /><About /><Projects projects={PROJECTS} /><Experience experiences={EXPERIENCE} /><Skills skills={SKILLS} idiomas={IDIOMAS} /><Education items={EDUCATION} /><Feedbacks feedbacks={FEEDBACKS} /></main>
     <Footer /><Suspense fallback={null}><AIAssistant /></Suspense>

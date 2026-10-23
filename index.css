@@ -118,3 +118,8 @@ button,a{touch-action:manipulation}
 @media (min-width:1101px){
   .hero-section{padding-top:125px}
 }
+
+
+/* Clean first impression: no decorative background image or animated canvas */
+.portfolio-shell:before{display:none}
+.hero-orbit{display:none}
