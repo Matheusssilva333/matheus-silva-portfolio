@@ -110,3 +110,11 @@ button,a{touch-action:manipulation}
   .lightbox{padding:16px}
   .lightbox button{right:14px;top:8px}
 }
+
+/* Bring the first message above the fold on desktop */
+@media (min-width:801px){
+  .hero-section{min-height:auto;align-items:flex-start;padding:145px 0 96px}
+}
+@media (min-width:1101px){
+  .hero-section{padding-top:125px}
+}
