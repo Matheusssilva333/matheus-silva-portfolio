@@ -15,13 +15,12 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  { name: "Automação industrial e CLP", category: "Foco atual", proficiency: 55, details: ["CLP Branqs", "Lógica de controle", "IHM", "Entradas e saídas digitais"] },
-  { name: "Desenvolvimento de software", category: "Conhecimento prático", proficiency: 75, details: ["Python", "Java", "Sites", "Chatbots"] },
-  { name: "Inteligência artificial e automações", category: "Foco atual", proficiency: 75, details: ["IA generativa", "Automação", "Microsoft 365 Copilot"] },
-  { name: "Gestão e planejamento", category: "Experiência profissional", proficiency: 75, details: ["Gestão de projetos", "Processos", "Planejamento", "SAP"] },
-  { name: "Dados e produtividade", category: "Conhecimento prático", proficiency: 70, details: ["Microsoft Excel", "Banco de dados", "Notion", "Microsoft PowerPoint"] },
-  { name: "Marketing e negócios", category: "Experiência em projetos", proficiency: 70, details: ["Marketing digital", "Redes sociais", "Prospecção comercial", "Vendas"] },
-  { name: "Processos industriais", category: "Experiência profissional", proficiency: 80, details: ["SMS", "Permissões de Trabalho", "Gestão de documentos", "Manutenção"] },
+  { name: "Desenvolvimento e IA", category: "Conhecimentos", details: ["Node.js", "Engenharia de prompt", "Python", "Java", "Antigravity"] },
+  { name: "Segurança e diagnóstico", category: "Conhecimentos", details: ["Shodan", "Wireshark", "Kali Linux", "Postman"] },
+  { name: "Organização e produtividade", category: "Conhecimentos", details: ["Obsidian", "Notion", "Excel intermediário"] },
+  { name: "Gestão e negócios", category: "Conhecimentos", details: ["Marketing digital", "Gestão de projetos", "Planejamento", "Gestão de documentos"] },
+  { name: "Projeto técnico e automação", category: "Conhecimentos", details: ["Fusion 360", "AutoCAD", "SketchUp", "Programação CLP"] },
+  { name: "Plataformas e automação", category: "Conhecimentos", details: ["Supabase", "n8n"] },
 ];
 
 export const EDUCATION: Education[] = [

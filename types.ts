@@ -10,7 +10,7 @@ export interface Project {
 export interface Skill {
   name: string;
   category: string;
-  proficiency: number;
+  proficiency?: number;
   details?: string[];
 }
 
