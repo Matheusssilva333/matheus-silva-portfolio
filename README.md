@@ -9,6 +9,7 @@ Portfólio profissional restaurado do histórico do repositório `Jarvis` e reor
 - depoimentos com visualização ampliada;
 - assistente local de perguntas frequentes, sem chave de API exposta no navegador;
 - layout responsivo, acessível e com suporte a `prefers-reduced-motion`.
+- treinamento preparatório para estágio na Branqs Automação, com projetos de CLP documentados no GitHub.
 
 ## Executar
 
